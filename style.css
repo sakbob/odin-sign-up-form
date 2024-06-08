@@ -16,6 +16,7 @@ body, html {
 .left-container {
     display: flex;
     flex-basis: 34%;
+    flex-shrink: 0;
     flex-direction: column;
     justify-content: space-between;
     
@@ -26,15 +27,20 @@ body, html {
     text-align: center;
     
     max-height: 100vh;
+
+    color: white;
 }
 
 .left-container h1 {
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    
+
     margin-top: 12rem;
     height: auto;
     font-size: 3rem;
+}
+
+a {
+    color: inherit;
 }
 
 .right-container {
@@ -48,14 +54,10 @@ body, html {
 }
 
 .block-1 {
-    padding: 20px;
-    margin-top: 10%;
+    padding: 1rem;
+    margin-top: 8rem;
     font-weight: bold;
     font-size: 1rem;
-}
-
-.form-container {
-
 }
 
 .block-2 {
@@ -63,14 +65,11 @@ body, html {
     display: flex;
     flex-direction: column;
     
-    padding: 20px;
-    padding-top: 10px;
+    padding: 1rem;
     
 }
 
 .block-2-header {
-    margin-top: 30px;
-
     font-size: 1.5rem;
 }
 
@@ -79,7 +78,10 @@ body, html {
 }
 
 .block-2-contents input {
+    padding: 0.2rem;
+    font-size: 1rem;
     height: 1rem;
+    width: 15rem;
 }
 
 .block-2-contents-left {
@@ -94,16 +96,22 @@ body, html {
 }
 
 .block-3 {
-    background-color: chocolate;
+    padding: 1rem;
+}
 
-    padding: 20px;
-
-
+.block-3 span {
+    color: #596D48;
+    font-weight: bold;
 }
 
 button {
     font-size: 1rem;
+    font-weight: bold;
+    color: white;
+
+    background-color: #596D48;
+
     border: none;
-    border-radius: 4px;
+    border-radius: 0.5rem;
     padding: 0.5rem 1rem;
 }
