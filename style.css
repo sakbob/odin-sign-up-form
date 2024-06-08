@@ -1,0 +1,71 @@
+:root {
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    height:100vh;
+}
+
+.left-container {
+    display: flex;
+    flex-basis: 34%;
+    flex-direction: column;
+    
+    background-color: blue;
+    
+}
+
+.right-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 66%;
+
+    justify-content: center;
+
+    background-color: #E5E7EB;
+}
+
+.block-1 {
+    position: relative;
+    bottom: 5%;
+    background-color: red;
+    
+    padding: 20px;
+
+    font-weight: bold;
+}
+
+.form-container {
+    position: relative;
+    bottom: 5%;
+}
+
+.block-2 {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+}
+
+.block-2-contents {
+    display: flex;
+}
+
+.block-2-contents div {
+    border: solid 1px black;
+    width: min-content;
+}
+
+.block-3 {
+    background-color: chocolate;
+
+    padding: 20px;
+}
