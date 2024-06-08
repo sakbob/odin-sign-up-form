@@ -4,54 +4,67 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign Up</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <div class="left-container">
-            <h1>ODIN</h1>
-            <p>
-                Photo by <a href="">Halie West</a> on <a href="">Unsplash</a>
-            </p>
-        </div>
-        <div class="right-container">
-            <div class="block-1">
+        <div class="main-container">
+            <div class="left-container">
+                <h1>ODIN</h1>
                 <p>
-                    This is not a real online service! You know you need something like this in your life to 
-                    help you realize your deepest dreams. Sign up <em>now</em> to get started.
-                </p>
-                <p>
-                    You <em>know</em> you want to.
+                    Photo by <a href="">Halie West</a> on <a href="">Unsplash</a>
                 </p>
             </div>
-            <div class="block-2">
-                <h1 class="block-2-header">Let's do this!</h1>
-                <div class="block-2-contents">
-                    <div class="block-2-contents-left">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name"/>
-
-                        <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email"/>
-
-                        <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password"/>
-                    </div>
-                    <div class="block-2-contents-right">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" name="last-name" id="last-name"/>
-
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" name="phone" id="phone"/>
-
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="confirm-password" name="confirm-password" id="confirm-password"/>
-                    </div>
+            <div class="right-container">
+                <div class="block-1">
+                    <p>
+                        This is not a real online service! You know you need something like this in your life to 
+                        help you realize your deepest dreams. Sign up <em>now</em> to get started.
+                    </p>
+                    <p>
+                        You <em>know</em> you want to.
+                    </p>
                 </div>
-            </div>
-            <div class="block-3">
-                <button type="submit">Create Account</button>
-                <p>
-                    Already have an account? <span>Log In</span>
-                </p>
+                <form class="form-container">
+                    <div class="block-2">
+                        <h1 class="block-2-header">Let's do this!</h1>
+                        <div class="block-2-contents">
+                            <div class="block-2-contents-left">
+                                <div>
+                                    <label for="first-name">FIRST NAME</label>
+                                    <input type="text" name="first-name" id="first-name"/>
+                                </div>
+                                <div>
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" name="email" id="email"/>
+                                </div>
+                                <div>
+                                    <label for="password">PASSWORD</label>
+                                    <input type="password" name="password" id="password"/>
+                                </div>
+                            </div>
+                            <div class="block-2-contents-right">
+                                <div>
+                                    <label for="last-name">LAST NAME</label>
+                                    <input type="text" name="last-name" id="last-name"/>
+                                </div>
+                                <div>
+                                    <label for="phone">PHONE NUMBER</label>
+                                    <input type="tel" name="phone" id="phone"/>
+                                </div>
+                                <div>
+                                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                                    <input type="confirm-password" name="confirm-password" id="confirm-password"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-3">
+                        <button type="submit">Create Account</button>
+                        <p>
+                            Already have an account? <span>Log In</span>
+                        </p>
+                    </div>
+                </form>
             </div>
         </div>
     </body>
