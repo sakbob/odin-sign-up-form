@@ -1,6 +1,10 @@
+@font-face {
+    font-family: NorseBold;
+    src: url(./Norse-Bold.otf);
+}
+
 :root {
     font-size: clamp(1vh, 2vh, 3vh);
-    
 }
 
 body, html {
@@ -36,7 +40,9 @@ body, html {
 
     margin-top: 12rem;
     height: auto;
+    
     font-size: 3rem;
+    font-family: NorseBold;
 }
 
 a {
