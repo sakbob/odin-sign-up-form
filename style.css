@@ -40,7 +40,7 @@ body, html {
     display: flex;
     background-color: rgba(0, 0, 0, 0.5);
 
-    margin-top: 8rem;
+    margin-top: 9.5rem;
     height: auto;
     padding: 1rem;
 
@@ -96,7 +96,7 @@ a {
     padding-left: 2rem;
     padding-right: 2rem;
 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.4rem 0.7rem rgba(0, 0, 0, 0.3);
 }
 
 .block-2-header {
@@ -114,8 +114,19 @@ a {
     width: 15rem;
 
     border-style: none;
-    border: 0.1rem solid darkslategray;
+    border: 0.1rem solid #E5E7EB;
     border-radius: 0.2rem;
+
+    background: #fffbf441;
+}
+
+.block-2-contents input:focus {
+    outline: 0.1rem solid blue;
+    box-shadow: 0 0.4rem 0.7rem rgba(0, 0, 0, 0.3);
+}
+
+.block-2-contents input:invalid {
+    outline: 0.1rem solid red;
 }
 
 .block-2-contents-left {
@@ -153,5 +164,5 @@ button {
 
     border: none;
     border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 2rem;
 }
